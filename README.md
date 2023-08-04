@@ -26,31 +26,19 @@ To give you an idea of the process a customer at CHECK24, looking for a service 
 
 On following two screenshots you can see the chat overview from both perspectives. One screenshot was made within our "CHECK24" customer iOS app, and the other within our "CHECK24 Profis" iOS app.
 
-<div style="display: flex; justify-content: center; margin: 20px 0; gap: 20px; flex-wrap: wrap;">
-<div style="display: flex; flex-direction: column; gap: 10px; align-items: center;">
-    <img src="./assets/customer-facing-chats-overview.png" style="height: 500px; border-radius: 2px;" alt="Customer facing chat"/>
-    <span style="color: gray; font-size: 10px; text-align: center;">Customer perspective:<br />Received quotes for "Fliesenleger" enquiry</span>
-</div>
-<div style="display: flex; flex-direction: column; gap: 10px; align-items: center;">
-    <img src="./assets/service-provider-facing-chats-overview.png" style="height: 500px;"/>
-    <span style="color: gray; font-size: 10px; text-align: center;">Service provider perspective:<br />Chats of quotes sent to customers</span>
-</div>
-</div>
+|Perspective|Description|Screenshot|
+|-|-|-|
+|Customers perspective|Overview of received quotes for "Fliesenleger" enquiry|<img src="./assets/customer-facing-chats-overview.png" style="max-height: 400px;"/>|
+|Service providers perspective|Chats of quotes sent to customers|<img src="./assets/service-provider-facing-chats-overview.png" style="max-height: 400px;"/>|
 
 ### Messenger
 
 On following two screenshots you can see a chat between a customer and a service provider from both perspectives. One screenshot was made within our "CHECK24" customer iOS app, and the other within our "CHECK24 Profis" iOS app.
 
-<div style="display: flex; justify-content: center; margin: 20px 0; gap: 20px; flex-wrap: wrap;">
-<div style="display: flex; flex-direction: column; gap: 10px; align-items: center;">
-    <img src="./assets/customer-facing-chat.png" style="height: 500px; border-radius: 2px;" alt="Customer facing chat"/>
-    <span style="color: gray; font-size: 10px; text-align: center;">Customer perspective:<br />initial chat (service provider sent quote)</span>
-</div>
-<div style="display: flex; flex-direction: column; gap: 10px; align-items: center;">
-    <img src="./assets/service-provider-facing-chat.png" style="height: 500px;"/>
-    <span style="color: gray; font-size: 10px; text-align: center;">Service provider perspective:<br />initial chat (service provider sent quote)</span>
-</div>
-</div>
+|Perspective|Description|Screenshot|
+|-|-|-|
+|Customers perspective|initial chat (service provider sent quote)|<img src="./assets/customer-facing-chat.png" style="max-height: 400px;"/>|
+|Service providers perspective|initial chat (service provider sent quote)|<img src="./assets/service-provider-facing-chat.png" style="max-height: 400px;"/>|
 
 ## The challenge
 
