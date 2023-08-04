@@ -91,7 +91,7 @@ To give you some ideas of challenges/features building a messenger you could thi
 
 ## Datasets & cases
 
-We provide you with a dataset of two conversations and some additional informations for the review & unread banner cases for this challenge. To get access to the datasets and cases click on the "Start the challenge" button at the [end of the page](#how-do-i-hand-in-my-project). You will automatically be invited to the organization where you'll find the check24-scholarships/check24-messenger-challenge-datasets repository.
+We provide you with a dataset of two conversations and some additional informations for the review & unread banner cases for this challenge. To get access to the datasets and cases click on the "Start the challenge" button at the [end of the page](#how-do-i-hand-in-my-project). You will automatically be invited to the organization where you'll find the [check24-scholarships/check24-messenger-challenge-datasets](https://github.com/check24-scholarships/check24-messenger-challenge-datasets) repository.
 
 ### Conversations
 
