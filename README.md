@@ -13,8 +13,8 @@ Sounds like a challenge you want to tackle? Let's dive into it! 🤓
     1. [Screen: chat overview](#chat-overview)
     2. [Screen: messenger](#messenger)
 2. [The challenge](#the-challenge)
-    1. [Minimum requirements](#minimal-requirements-✅)
-    2. [Get creative (add more features)](#get-creative-🤓)
+    1. [Minimum requirements](#minimal-requirements)
+    2. [Get creative (add more features)](#get-creative)
     3. [Dataset explanation](#datasets--cases)
 6. [How do I hand in my project?](#how-do-i-hand-in-my-project)
 
@@ -22,33 +22,13 @@ Sounds like a challenge you want to tackle? Let's dive into it! 🤓
 
 CHECK24 Profis is one of our products where you're able to compare local service providers for a broad range of provided services (e.g. DJ, moving companies, craftsmen, ...).
 
-To give you an idea of the process a customer at CHECK24, looking for a service provider in a given service, is going through:
+To give you an idea of the process of a customer enquiry at CHECK24 Profis, take a look at the following graphic:
 
-1. Customer creates an enquiry specifying who you're looking for
-2. Customer gets a bunch of quotes from service providers which are registered on our "Profis" platform
-3. Customer answers several service provider quotes via messenger and starts negotiating or chatting about details of the quote
-4. Customer finally accepts one of the quotes
-5. Customer and the chosen service provider work together
-6. Customer pays the service provider via CHECK24
-7. Customer writes a review for the service provider
+<img src="./assets/customer-journey.png"/>
 
-### Chat overview
+The following image shows the messenger from both perspectives:
 
-On following two screenshots you can see the chat overview from both perspectives. One screenshot was made within our "CHECK24" customer iOS app, and the other within our "CHECK24 Profis" iOS app.
-
-|Perspective|Description|Screenshot|
-|-|-|-|
-|Customers perspective|Overview of received quotes for "Fliesenleger" enquiry|<img src="./assets/customer-facing-chats-overview.png" style="max-height: 400px;"/>|
-|Service providers perspective|Chats of quotes sent to customers|<img src="./assets/service-provider-facing-chats-overview.png" style="max-height: 400px;"/>|
-
-### Messenger
-
-On following two screenshots you can see a chat between a customer and a service provider from both perspectives. One screenshot was made within our "CHECK24" customer iOS app, and the other within our "CHECK24 Profis" iOS app.
-
-|Perspective|Description|Screenshot|
-|-|-|-|
-|Customers perspective|initial chat (service provider sent quote)|<img src="./assets/customer-facing-chat.png" style="max-height: 400px;"/>|
-|Service providers perspective|initial chat (service provider sent quote)|<img src="./assets/service-provider-facing-chat.png" style="max-height: 400px;"/>|
+<img src="./assets/perspectives.png"/>
 
 ## The challenge
 
@@ -58,7 +38,7 @@ Your messenger consists of two components: the backend and the frontend (messeng
 
 We provide you with...
 - some [conversations data](#conversations) as a basic seed of data in a basic format
-- some [minimal requirements](#minimal-requirements-✅) that should get implemented
+- some [minimal requirements](#minimal-requirements) that should get implemented
 - [UI examples](./example-ui) to give you a head start and to focus on what matters: functionality
 
 Feel free to use our provided UI as a starting point or get creative yourself by building what you think offers the best UX.
@@ -71,27 +51,28 @@ Put your project on GitHub (private repository!) and use it to apply for the 4th
 
 This challenge is not primarily about ticking the boxes (we give you minimal requirements only to guide your project in the right direction). It should be a coding project that is fun for you to work on. 😊 There is no time limit. Try to build something cool you are proud of and impress us (by having a clever UI or some cool additional features). We are excited for your solutions. 🥳
 
-### Minimal requirements ✅
+### Minimal requirements
 
 *Heads up: each chat starts with a quote message of the service provider.*
 
-1. The same conversation should be viewable from both perspectives: customer and service provider (they should each have their own site/route, so that hypothetically a service provider on one device is able to chat with the customer on the other device). Think about implementing simple(!) [chat overviews](#chat-overview) to click into chats, too.
-2. Chats are mutable, so they should be persisted in a database/store of your choice and accessible via an unique identifier
-3. The customer/service provider should be able to scroll through a chat (and its history) with a hypothetical length of 10000s of messages per chat (think about Pagination)
-4. The customer/service provider should be able to send messages with optional attachments like pictures or documents (PDF)
-5. Any contactable data (phone, email, URL) within all messages should be masked as long as the conversation status is ["quoted"](#conversation+status)
-6. Messages should appear within the chat as they were sent (without refreshing the page)
-7. If a conversation status is ["rejected"](#conversation+status) the message input field should disappear and actions should not be possible any longer
-8. Customer reviews: Within the chat the service provider should be able to request a review from the customer once they've worked together (feature explicitly explained [within our provided datasets](#datasets--cases))
-9. A quick screencast 🎥 of your final working app within your GitHub repository (+ optional a link to a live version to check out *or* an explanation how to start your app on our machines)
+1. **Chat view**: the same conversation should be viewable from _both perspectives_: customer and service provider (they should each have their own site/route, so that hypothetically a service provider on one device is able to chat with the customer on the other device)
+2. **Overview over all chats**: think about implementing simple(!) chat overviews for both perspectives to click into chats, too.
+2. **Persistance**: chats are mutable, so they should be persisted in a database/store of your choice and accessible via an unique identifier
+3. **Scrolling pagination**: the customer/service provider should be able to scroll through a chat (and its history) with a hypothetical length of 10000s of messages per chat (think about Pagination)
+4. **Image and PDF attachments**: The customer/service provider should be able to send messages with optional attachments like pictures or documents (PDF)
+5. **Masking of sensible information**: Any contactable data (phone, email, URL) within all messages should be masked as long as the conversation status is ["quoted"](#conversation-status)
+6. **Show sent message in chat without refreshing**: Messages should appear within the chat as they were sent (without refreshing the page)
+7. **Hide message field if rejected state**: If a conversation status is ["rejected"](#conversation-status) the message input field should disappear and actions should not be possible any longer
+8. **Request customer reviews**: Within the chat the service provider should be able to request a review from the customer once they've worked together (feature explicitly explained [within our provided datasets](#datasets--cases))
+9. A **quick screencast 🎥 of your final working app** within your GitHub repository (+ optional a link to a live version to check out *or* an explanation how to start your app on our machines, see ["How do I hand in my project?"](#how-do-i-hand-in-my-project))
 
-### Get creative 🤓
+### Get creative
 
 As the above requirements are just the minimum, we want you to feel free to extend your chat and impress us. What else could the messenger of your choice have implemented (besides message types)?
 
 To give you some ideas of challenges/features building a messenger you could think of, depending on your implementation:
 
-- [Unread banner behaviour](#datasets--cases) (highly appreciated)
+- [Unread banner behaviour](https://github.com/check24-scholarships/check24-messenger-challenge-datasets/blob/master/cases/unread-banner.md) (highly appreciated)
 - An extendable/generic message API format
 - Thumbnail processing
 - Live-Updates (Socket/Polling)
@@ -120,7 +101,7 @@ Every row represents a conversation between a customer and a service provider.
 
 A conversation can (by default, feel free to extend) have three states.
 
-- `quoted` is the initial state where the service provider sent its quote to the customer. The customer has to decide to review the initial quote message. Both, the customer and service provider, are already able to chat about the given quote, talking about details, before accepting/rejecting the quote *but only if(!)* the customer starts chatting first
+- `quoted` is the initial state where the service provider sent its quote to the customer. The customer has to decide to review the initial quote message. Both, the customer and service provider, are already able to chat about the given quote, talking about details, before accepting/rejecting the quote ***but only if(!)* the customer starts chatting first**
 - `accepted` means the initial quote the service provider sent was accepted by the customer and further actions (e.g. customer writing a review, sending a hypothetical payment, ...) can only happen in this state
 - `rejected` means the initial quote got rejected by the customer
 
