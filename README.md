@@ -24,11 +24,11 @@ CHECK24 Profis is one of our products where you're able to compare local service
 
 To give you an idea of the process of a customer enquiry at CHECK24 Profis, take a look at the following graphic:
 
-<img src="./assets/customer-journey.png"/>
+<img src="./assets/customer-journey.png" style="max-height: 500px;"/>
 
 The following image shows the messenger from both perspectives:
 
-<img src="./assets/perspectives.png"/>
+<img src="./assets/perspectives.png" style="max-height: 500px;"/>
 
 ## The challenge
 
