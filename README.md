@@ -8,6 +8,16 @@ This coding challenge is about a messenger (app 📱 or web 💻) you may know f
 
 Sounds like a challenge you want to tackle? Let's dive into it! 🤓
 
+## Table of contents
+1. [Background, how does CHECK24 Profis work?](#background)
+    1. [Screen: chat overview](#chat-overview)
+    2. [Screen: messenger](#messenger)
+2. [The challenge](#the-challenge)
+    1. [Minimum requirements](#minimal-requirements-✅)
+    2. [Get creative (add more features)](#get-creative-🤓)
+    3. [Dataset explanation](#datasets--cases)
+6. [How do I hand in my project?](#how-do-i-hand-in-my-project)
+
 ## Background
 
 CHECK24 Profis is one of our products where you're able to compare local service providers for a broad range of provided services (e.g. DJ, moving companies, craftsmen, ...).
@@ -57,11 +67,11 @@ Put your project on GitHub (private repository!) and use it to apply for the 4th
 
 *Applications are open between 1st of September and 31st of October 2023.*
 
-## Note ℹ️
+### Note ℹ️
 
 This challenge is not primarily about ticking the boxes (we give you minimal requirements only to guide your project in the right direction). It should be a coding project that is fun for you to work on. 😊 There is no time limit. Try to build something cool you are proud of and impress us (by having a clever UI or some cool additional features). We are excited for your solutions. 🥳
 
-## Minimal requirements ✅
+### Minimal requirements ✅
 
 *Heads up: each chat starts with a quote message of the service provider.*
 
@@ -75,7 +85,7 @@ This challenge is not primarily about ticking the boxes (we give you minimal req
 8. Customer reviews: Within the chat the service provider should be able to request a review from the customer once they've worked together (feature explicitly explained [within our provided datasets](#datasets--cases))
 9. A quick screencast 🎥 of your final working app within your GitHub repository (+ optional a link to a live version to check out *or* an explanation how to start your app on our machines)
 
-## Get creative 🤓
+### Get creative 🤓
 
 As the above requirements are just the minimum, we want you to feel free to extend your chat and impress us. What else could the messenger of your choice have implemented (besides message types)?
 
@@ -89,11 +99,11 @@ To give you some ideas of challenges/features building a messenger you could thi
 - Dockerize your system so that anyone can run it on their machine
 - OpenAPI for backend <-> frontend communication (+ code generation)
 
-## Datasets & cases
+### Datasets & cases
 
 We provide you with a dataset of two conversations and some additional informations for the review & unread banner cases for this challenge. To get access to the datasets and cases click on the "Start the challenge" button at the [end of the page](#how-do-i-hand-in-my-project). You will automatically be invited to the organization where you'll find the [check24-scholarships/check24-messenger-challenge-datasets](https://github.com/check24-scholarships/check24-messenger-challenge-datasets) repository.
 
-### Conversations
+#### Conversations
 
 Let's talk about the structure of these conversation datasets.
 
@@ -114,7 +124,7 @@ A conversation can (by default, feel free to extend) have three states.
 - `accepted` means the initial quote the service provider sent was accepted by the customer and further actions (e.g. customer writing a review, sending a hypothetical payment, ...) can only happen in this state
 - `rejected` means the initial quote got rejected by the customer
 
-### Messages
+#### Messages
 
 On the other hand there are messages. Messages relate to a conversation. The messages dataset will look like this:
 
