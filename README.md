@@ -65,7 +65,7 @@ This challenge is not primarily about ticking the boxes (we give you minimal req
 
 *Heads up: each chat starts with a quote message of the service provider.*
 
-1. The same conversation should be viewable from both perspectives: customer and service provider (they should each have their own site/route, so that hypothetically a service provider on one device is able to chat with the customer on the other device)
+1. The same conversation should be viewable from both perspectives: customer and service provider (they should each have their own site/route, so that hypothetically a service provider on one device is able to chat with the customer on the other device). Think about implementing simple(!) [chat overviews](#chat-overview) to click into chats, too.
 2. Chats are mutable, so they should be persisted in a database/store of your choice and accessible via an unique identifier
 3. The customer/service provider should be able to scroll through a chat (and its history) with a hypothetical length of 10000s of messages per chat (think about Pagination)
 4. The customer/service provider should be able to send messages with optional attachments like pictures or documents (PDF)
