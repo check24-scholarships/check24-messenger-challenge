@@ -172,7 +172,7 @@ What should be included:
 
 So, what else? Have fun! We're looking forward hearing from you! 😎
 
-<a href="https://check24-4th-gendev.vpetritz.net" style="background: #103773; color: white; font-weight: 600; padding: 7.5px 15px; border-radius: 4px; border: 0; font-size: 18px;">Start challenge now! 🚀</a>
+<a href="https://check24-4th-gendev.vpetritz.net">Click here to start the challenge and access the datasets 🚀</a>
 
 ### Questions?
 In case of any questions, contact messengerchallenge@check24.de.
