@@ -73,9 +73,9 @@ As the above requirements are just the minimum, we want you to feel free to exte
 To give you some ideas of challenges/features building a messenger you could think of, depending on your implementation:
 
 - [Unread banner behaviour](https://github.com/check24-scholarships/check24-messenger-challenge-datasets/blob/master/cases/unread-banner.md) (highly appreciated)
-- An extendable/generic message API format
-- Thumbnail processing
-- Live-Updates (Socket/Polling)
+- An extendable/generic message API format (consider whether your API design is also suitable for new product requirements e.g. new message types)
+- Thumbnail processing (to improve UX)
+- Live-Updates (Socket/Polling/...)
 - Start the conversation at the scroll offset of the first unread message
 - Dockerize your system so that anyone can run it on their machine
 - OpenAPI for backend <-> frontend communication (+ code generation)
@@ -111,9 +111,10 @@ On the other hand there are messages. Messages relate to a conversation. The mes
 
 | id | conversation_id | message_type         | text                                                                     | sender_type      | read_at             | created_at          | updated_at          |
 |----|-----------------|----------------------|--------------------------------------------------------------------------|------------------|---------------------|---------------------|---------------------|
-|  1 |               2 | quote_offer          | Hey,\nwe would like to work with you. Please accept our quote of $ 1.500 | service_provider | 2023-07-27 16:52:04 | 2023-07-26 16:52:04 | 2023-07-26 16:52:04 |
-|  2 |               2 | reject_quote_message | That's too expensive, sorry                                              | customer         | 2023-07-27 16:52:04 | 2023-07-26 11:12:02 | 2023-07-26 11:12:02 |
-|  3 |               1 | quote_offer          | Hey,\nwe would like to work with you. Please accept our quote of $ 1.500 | service_provider | 2023-07-27 16:52:04 | 2023-08-03 19:29:23 | 2023-08-03 19:29:23 |
+| 1  | 2               | quote_offer          | Hey,\nwe would like to work with you. Please accept our quote of $ 1.500 | service_provider | 2023-07-27 16:52:04 | 2023-07-26 16:52:04 | 2023-07-26 16:52:04 |
+| 2  | 2               | reject_quote_message | That's too expensive, sorry                                              | customer         | 2023-07-27 16:52:04 | 2023-07-26 11:12:02 | 2023-07-26 11:12:02 |
+| 3  | 1               | quote_offer          | Hey,\nwe would like to work with you. Please accept our quote of $ 1.500 | service_provider | 2023-07-27 16:52:04 | 2023-08-03 19:29:23 | 2023-08-03 19:29:23 |
+| n  | x               | ...                  | ...                                                                      | ...              | ...                 | ...                 | ...                 |
 
 - `read_at` indicates a date time when the given message was viewed/read by the receiver and display it nicely to the sender by having checkmarks (see [UI examples](./example-ui/README.md)) within their chat message bubble.
 - `hidden_at` should indicate that a message gets hidden when reaching the specified datetime (must not be set)
