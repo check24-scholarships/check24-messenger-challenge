@@ -2,7 +2,7 @@
 
 **Note:**
 This is the challenge for the **4th round** of the [GenDev Scholarship](https://check24.de/gen-dev).
-We're looking forward for your application - happy coding. 🤓
+We're looking forward to your application - happy coding. 🤓
 
 This coding challenge is about a messenger (app 📱 or web 💻) you may know from our service provider comparison product "CHECK24 Profis". After creating an enquiry for any of our provided services (mover, DJ, a broad range of craftsmen, ...) the customer is able to receive quotes from service providers within their region. To keep things simple, starting from the point the customers is interested, they're able to chat with each other through our messenger. As it seems simple for end users, there is quite some logic needed to create a seamless chat experience. 😀
 
