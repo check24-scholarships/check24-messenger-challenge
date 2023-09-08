@@ -45,7 +45,7 @@ Feel free to use our provided UI as a starting point or get creative yourself by
 
 Put your project on GitHub (private repository!) and use it to apply for the 4th round of the [GenDev Scholarship](https://check24.de/gen-dev).
 
-*Applications are open between 1st of September and 31st of October 2023.*
+Please make sure to hand in all your applications documents as well as the link to your solution of the coding challenge until the end of the application phase.
 
 ### Note ℹ️
 
