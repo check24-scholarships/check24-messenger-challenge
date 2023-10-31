@@ -117,7 +117,7 @@ On the other hand there are messages. Messages relate to a conversation. The mes
 | n  | x               | ...                  | ...                                                                      | ...              | ...                 | ...                 | ...                 |
 
 - `read_at` indicates a date time when the given message was viewed/read by the receiver and display it nicely to the sender by having checkmarks (see [UI examples](./example-ui/README.md)) within their chat message bubble.
-- `hidden_at` should indicate that a message gets hidden when reaching the specified datetime (must not be set)
+- *to be implemented: `hidden_at` should indicate that a message gets hidden when reaching the specified datetime (must not be set)*
 
 #### Message types
 
