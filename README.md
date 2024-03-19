@@ -164,7 +164,5 @@ What should be included:
 
 So, what else? Have fun! We're looking forward hearing from you! 😎
 
-<a href="https://check24-4th-gendev.vpetritz.net">Click here to start the challenge and access the datasets 🚀</a>
-
 ### Questions?
 In case of any questions, contact messengerchallenge@check24.de.
